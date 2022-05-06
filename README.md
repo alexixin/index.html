@@ -25,11 +25,7 @@
             <h3>Imagen del Pokemon</h3>
             <img src="">
         </div>
-<script>
-</script>    
-
-</div></div></body></html>
-var app=new Vue({
+        var app=new Vue({
   el:"#app1",
   data:{  
       titulo: "API de Pokemones",
@@ -63,3 +59,7 @@ verPokes: async function(url,nombre){
     }
   },        
 }) //fin de objeto Vue
+<script>
+</script>    
+
+</div></div></body></html>
